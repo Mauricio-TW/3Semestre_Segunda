@@ -4,10 +4,10 @@ from Veiculo import Veiculo
 
 class TelaVeiculo(QMainWindow):
     def __init__(self, titulo = "Tela de Veiculo"):
-        super().__init__()
+        super().__init__(titulo)
 
         self.setWindowTitle(titulo)
-        self.setGeometry(100, 150, 300, 300)
+        self.setGeometry(100, 150, 300, 150)
         self.layout = QVBoxLayout()
 
         self.definirLayout()

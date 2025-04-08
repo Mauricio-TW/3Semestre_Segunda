@@ -5,10 +5,12 @@ from TelaCarro import TelaCarro
 
 app = QApplication(sys.argv)
 
+#TelaCarro
 TelaCarro = TelaCarro("Cadastro de Carro")
 TelaCarro.show()
 
-#TelaVeiculo = TelaVeiculo("Cadastro de Veículo")
-#TelaVeiculo.show()
+#TelaVeiculo
+TelaVeiculo = TelaVeiculo("Cadastro de Veículo")
+TelaVeiculo.show()
 
 sys.exit(app.exec_())

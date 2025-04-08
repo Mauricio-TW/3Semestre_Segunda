@@ -5,5 +5,5 @@ class Veiculo:
         self.ano = ano
 
     def __str__(self):
-        return "Modelo: " + self.modelo + "\nAno: " + str(self.ano)
+        return f"Modelo: {self.modelo}\nAno: {self.ano}"
     
