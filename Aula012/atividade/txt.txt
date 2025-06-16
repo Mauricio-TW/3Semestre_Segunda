@@ -1,0 +1,12 @@
+implemente uma pilha de livros e uma Lista Encadeada de autores, ordenada pelo nome do autor.
+
+a classe Livro deve conter os atributos:
+titulo:string
+autor: autor
+paginas: int
+
+A classe autor deve conter os atributos:
+nome: string
+nacionalidade: string
+
+monte um menu que permita adicionar e remover livros, adicionar autores e imprimir a lista de autores e a pilha de livros
