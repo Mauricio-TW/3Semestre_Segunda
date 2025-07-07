@@ -16,3 +16,14 @@ print(frota[1])
 print("-----------------------------------------------------------")
 for chave, valor in carro3.items():
     print(chave, " - ", valor)
+
+
+
+# Dicionário: coleção de pares chave: valor
+dicionario = {"nome": "Ana", "idade": 25, "cidade": "Rio de Janeiro"}
+
+print(dicionario["nome"])  # Saída: Ana
+
+# Atualizando valor
+dicionario["idade"] = 26
+print(dicionario["idade"])  # Saída: 26
